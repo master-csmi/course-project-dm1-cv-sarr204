@@ -13,9 +13,4 @@ jobs:
         with:
           name: main-pdf
           path: main.pdf
-      - name: summary
-        run: |
-            echo "CI workflow completed successfully." >> $GITHUB_STEP_SUMMARY
-            echo "PDF document is available for download." >> $GITHUB_STEP_SUMMARY
-            echo "Artifact name: main-pdf" >> $GITHUB_STEP_SUMMARY
-            echo "File path: main.pdf" >> $GITHUB_STEP_SUMMARY
+      
